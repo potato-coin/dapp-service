@@ -1,0 +1,31 @@
+{
+  "name": "dapp-service",
+  "version": "1.0.0",
+  "description": "dapp service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potato-coin/dapp-service.git"
+  },
+  "keywords": [
+    "potato",
+    "dapp"
+  ],
+  "author": "rise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potato-coin/dapp-service/issues"
+  },
+  "homepage": "https://github.com/potato-coin/dapp-service#readme",
+  "dependencies": {
+    "dotenv-safe": "^6.1.0",
+    "koa": "^2.6.2",
+    "koa-compress": "^3.0.0",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.3.0",
+    "pcjs": "^1.1.18"
+  }
+}
